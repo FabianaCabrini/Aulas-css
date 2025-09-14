@@ -1,0 +1,20 @@
+body{
+   background-color: bisque;
+}
+h1,p{ /*Agrupamento de seletores*/
+    color: brown;
+}
+.rosa{
+    color: pink;
+}
+.center{
+    text-align: center;
+}
+
+.fonte-30{
+    font-size: 30px;
+}
+#teste{
+    color: yellow;
+    background-color: aqua;
+}
