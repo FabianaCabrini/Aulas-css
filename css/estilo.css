@@ -1,11 +1,35 @@
 body{
    background-color: bisque;
 }
-h1,p{ /*Agrupamento de seletores*/
+/*h1,p{ /*Agrupamento de seletores
     color: brown;
+    border: 1px solid black;
+    border-radius: 30%;
+}*/
+h1{
+    color: brown;
+    border: 1px solid black;
+    border-radius: 30%;
+    text-align: center;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*forma resumida -- margin: 30px 70px 50px 100px*/
+    /*to dizendo que em cima quero 30 a esquerda 70 em baixo 50 e a direita 100*/
+    padding-top: 100; 
+    /*O padding mexe na margem de dentro do elemento, um preenchimento*/
+    padding-bottom: 100px;
+
+    /*padding: 50px 70px 20px 10px -- forma resumida*/
 }
+
 .rosa{
-    color: pink;
+    
+    color: blueviolet;
+    margin-bottom: 3;
+
 }
 .center{
     text-align: center;
@@ -18,3 +42,43 @@ h1,p{ /*Agrupamento de seletores*/
     color: yellow;
     background-color: aqua;
 }
+.exemplo{
+    height: 300px;
+    background-color: blue;
+    margin-bottom: 100px;
+}
+.botao{
+    margin-left:33%;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+}
+.botao:hover{
+    /*houver - Sobre - o que vai acontecer quando passsar o mouse*/
+    background-color: rgb(168, 118, 214);
+    text-decoration: none;
+}
+/*
+h2{
+    color: aqua; propriedade de cor
+    background-color:purple ; cor de fundo
+    background-image
+}
+
+h1{ -- tipos de bordas
+    border-top: 5px color -- onde quero que a borda apareça + o tamanho + cor
+    border-left: 2px
+    border-right:5px
+    border-bottom: 2px
+
+    border-radius:5px; -- Borda arredondada + o quanto quer que arredonde
+    border: 2px dashed color -- colocar a cor;
+    border: 2x double;
+    border: ridge
+    border: inset
+    border: solid
+    border: dashed
+    border: dotted
+}
+*/
