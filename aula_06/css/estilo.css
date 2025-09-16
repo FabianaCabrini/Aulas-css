@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #000000; 
+
+}
+header{
+    
+    padding: 50x;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+header, h1{
+    font-size: 57px;
+    color: #ffffff;
+    font-family: "Quicksand";
+    font-weight: 300;
+    text-align: center;
+
+}
+.enviar{
+    display: block;       
+    text-align: center;
+    border: #b1a5a5;
+    border-radius: 15px;
+
+   
+}
+
+table{
+    color: rgb(255, 255, 255);
+    
+    margin: 80px auto; /* 50px de cima/baixo, auto centraliza horizontalmente */
+    border-collapse: collapse; /* evita espaços estranhos entre células */
+    width: 50%;       
+    height: 300px;   
+}
+table td, table th{
+    padding: 3px;
+ 
+}
+
+.retangulo {
+ 
+    
+    border-radius: 15px;
+    padding: 30px; /* espaçamento interno do bloco */
+    max-width: 900px;
+    margin: 50px auto;
+    color: #333;
+    opacity: 0.8;
+    background: linear-gradient(to bottom, #932cce, #7f6bd4);
+}
+input[type="text"],input[type="email"],input[type="password"]{
+      width: 100%; /* ocupa toda a largura da célula/retângulo */
+      padding: 12px;  /* espaço interno do texto */
+      margin: 8px 0;/* espaço entre os inputs */
+      border: 2px solid #fdfdfd; /* cor da borda */
+      border-radius: 10px;     /* cantos arredondados */
+      font-size: 12px;         /* tamanho da fonte */
+      box-sizing: border-box; 
+
+}
+input[type="submit"]{
+  display: block;
+   margin: 20px auto;       /* centraliza         horizontalmente */
+  padding: 12px 30px;      /* aumenta o tamanho */
+  background-color: #7f6bd4; /* cor de fundo */
+  color: white;            /* cor do texto */
+  border: none;            /* remove a borda feia */
+  border-radius: 12px;     /* cantos arredondados */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+input[type="subitmit"]:hover{
+  background-color: #ae8ae7;
+}
+.menu2{
+    padding: 10px 20px;
+    background-color: #252525;
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    border-radius: 12px;
+   
+    
+    
+}
+.botao2 {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  background-color: #ae8ae7;
+  border-radius: 10px;
+  padding: 10px;
+  
+  
+}
+.botao2:hover{
+  background-color: #5052e4;
+}
+.botao2 a{
+  text-decoration: none;
+  color: white;
+  font-family: "Quicksand";
+
+}
+
+.produtos img{
+  width: 150px; 
+  height: auto;
+}
+.produtos,td{
+  text-align: center;
+  font-family: "Quicksand" ;
+}
+.menu1{
+    background-color: #252525;
+    padding: 10px 47px;
+    text-decoration: none;
+    border-radius: 12px;
+    color:   rgb(231, 231, 231);
+}
+.menu1:hover{
+    background-color: #b893f5;
+
+}
+.menu2:hover{
+     background-color: #b893f5;
+}
+p{
+  color: white;
+  font-family:"Quicksand";
+  text-align: center;
+}
+.fotos {
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+
+.fotos h2 {
+  margin-bottom: 30px;
+}
+
+.grid-fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background-color: #5052e4;
+  background: linear-gradient(to bottom, #932cce, #7f6bd4);
+
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 20px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+@keyframes flutuarGirar {
+  0%   { transform: translateY(0px) rotate(0deg); }
+  50%  { transform: translateY(-15px) rotate(5deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+.grid-fotos .item {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+
+  animation: flutuarGirar 4s ease-in-out infinite;
+ 
+}
+
+.grid-fotos .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+footer {
+  
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 300px;
+
+}
