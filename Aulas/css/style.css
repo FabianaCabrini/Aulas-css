@@ -10,3 +10,11 @@ p{
 }
 
 */
+#p1{
+    /*O paragrafo não sera mostrado, para mostrar
+    novamente é só colocar o display: block
+    usamos isso pra fazer um tipo de interação
+    igual quando usamos o hover*/
+
+    display: none;
+}
