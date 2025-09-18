@@ -44,3 +44,16 @@ div{
     width: 25%;
     height: 150px;
 }
+.ex1{
+    /*cria-se uma barra de rolagem
+    para acompanhar o tamanho da largura que 
+    voce determinou
+    mas isso para celulares não fica muito legal, então temos uma solução a Max-width*/
+    max-width: 800px;
+    /*Se ajusta a tela*/
+
+
+}
+.ex2{
+    width: 600px;
+}
