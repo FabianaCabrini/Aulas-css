@@ -26,11 +26,12 @@
     z-index: -1;
 }
 .div2{
-    position: relative;
-    z-index: 2;
+    /*O stick, ele gruda o elemento aonde voce o posiciona, então se eu descer a tela ele vai seguir esse mesmo fluxo*/
+    position: sticky;
+    top: 0;
     width: 30%;
     height: 100px;
-    background-color: white ;
+    background-color: rgb(187, 25, 138) ;
     display: inline-block;
 }
 .div3{
