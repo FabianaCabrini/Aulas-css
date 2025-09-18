@@ -27,5 +27,20 @@ li{
     mas com o comportamento de um bloco, que 
     aceita alterações de dimenções
     diferente do inline
+    display: inline-block
     */
+}
+.pink{
+    background-color: pink;
+}
+.purple{
+    background-color: purple;
+}
+.yellow{
+    background-color: yellow;
+}
+div{
+    display: inline-block;
+    width: 25%;
+    height: 150px;
 }
