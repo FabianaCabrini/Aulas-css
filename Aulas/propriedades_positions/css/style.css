@@ -1,4 +1,5 @@
 .container{
+    position: relative;
     display: inline-block;
     background-color: aqua;
     width: 100%;
@@ -33,10 +34,20 @@
     display: inline-block;
 }
 .div3{
+    position: absolute;
+    top:150px;
+    right: 50px;
     width: 30%;
     height: 100px;
     background-color: red;
     display: inline-block;
+    /*
+    position absolute, aqui falamos sobre herençar
+    ele vai se mover em relação a uma herança superior
+    um Pai, que seria nossa div que agrega todos
+    mas, precisamos dar uma posição para a div pai
+    pois se não ele não a reconhece, pois esta estatica
+    */
 }
 .whats{
     background-color: green;
