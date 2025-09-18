@@ -18,3 +18,14 @@ p{
 
     display: none;
 }
+
+li{
+    /*Deixando a lista uma do lado da outra*/
+    display: inline;
+    /*Temos também o inline-block
+    que vai deixar o parágrafo em linha
+    mas com o comportamento de um bloco, que 
+    aceita alterações de dimenções
+    diferente do inline
+    */
+}
